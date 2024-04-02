@@ -1,0 +1,52 @@
+:root {
+    --morado: #621c7c;
+    --negro: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right top, #000000, #250c19, #400d31, #551052, #621c7c);
+    color: white;
+}
+
+nav {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 1s ease;
+    margin: 5px;
+}
+
+nav .navbar:hover {
+    background-color: var(--morado);
+    width: 100px;
+    height: 40px;
+    border-radius: 1rem;
+    transition: 1s ease;
+}
+
+nav h2 {
+    cursor: pointer;
+}
+
+.header nav a {
+    text-decoration: none;
+}
+
+.image_pekka {
+    filter: drop-shadow(10px 15px 20px #621c7c);
+}
