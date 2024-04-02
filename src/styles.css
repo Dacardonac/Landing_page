@@ -62,7 +62,7 @@ nav h2 {
     align-items: center;
     margin: 0px 50px;
     position: sticky;
-    top: 1px;
+    top: 0px;
 }
 
 .header nav a {
@@ -143,30 +143,59 @@ nav h2 {
     filter: drop-shadow(10px 15px 20px #621c7c);
     display: flex;
     align-items: center;
+    justify-content: center;
     z-index: -1;
 }
 
+.card_pekka {
+    filter: drop-shadow(10px 15px 20px #621c7c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    z-index: -1;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .info {
-    margin: 80px 165px;
+    width: 800px;
+    margin: 70px 165px 50px 165px;
 }
 
 .info h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-bottom: 2rem;
 }
 
-.info h3 {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
 .info p {
-    font-size: 1.4rem;
-    margin-bottom: 1.7rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
 .info p span {
     font-size: 1.2rem;
+}
+
+.video iframe {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 40px;
+    border-radius: 1rem;
+    border: 1px solid var(--morado);
+    transition: 1s ease;
+}
+
+.video iframe:hover {
+    transition: 1s ease;
+    width: 305px;
+    height: 155px;
 }
 
 footer {
