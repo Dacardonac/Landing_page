@@ -43,7 +43,6 @@ nav .navbar:hover {
     transition: 1s ease;
 }
 
-
 .header h2 {
     margin: 20px 0px;
     font-size: 2.2rem;
@@ -59,6 +58,8 @@ nav h2 {
     justify-content: space-between;
     align-items: center;
     margin: 0px 50px;
+    position: sticky;
+    top: 1px;
 }
 
 .header nav a {
@@ -71,26 +72,31 @@ nav h2 {
 }
 
 .presentation {
-    margin: 80px 150px;
+    margin: 80px 165px;
 }
 
 .presentation h1 {
     font-size: 55px;
-    margin: 10px 10px 15px 0px;
+    margin: 10px 10px 25px 0px;
 }
 
 .presentation h2 {
     font-size: 20px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .presentation h3 {
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 
 .presentation p {
-    font-size: 1.5em;
-    margin-bottom: 1.7em;
+    font-size: 1.4rem;
+    margin-bottom: 1.7rem;
+}
+
+.presentation p span {
+    font-size: 1.2rem;
 }
 
 .download {
@@ -101,6 +107,7 @@ nav h2 {
     font-weight: bold;
     transition: 1s ease;
     border: none;
+    margin-top: 10px;
     margin-right: 1rem;
 }
 
@@ -118,8 +125,8 @@ nav h2 {
     border-radius: 2rem;
     font-weight: bold;
     border: 2px solid #ffffff;
+    margin-top: 10px;
     transition: 1s ease;
-
 }
 
 .gameplay:hover {
@@ -131,6 +138,32 @@ nav h2 {
 
 .image_pekka {
     filter: drop-shadow(10px 15px 20px #621c7c);
+    display: flex;
+    align-items: center;
+    z-index: -1;
+}
+
+.info {
+    margin: 80px 165px;
+}
+
+.info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.info h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info p {
+    font-size: 1.4rem;
+    margin-bottom: 1.7rem;
+}
+
+.info p span {
+    font-size: 1.2rem;
 }
 
 footer {
@@ -138,8 +171,6 @@ footer {
     background-color: #36223a;
     color: #fff;
 }
-
-
 
 .contact, a {
     text-align: center;
@@ -156,3 +187,4 @@ footer p {
 .copy {
     text-align: center;
 }
+
