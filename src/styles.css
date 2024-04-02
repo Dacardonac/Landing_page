@@ -204,6 +204,32 @@ footer {
     color: #fff;
 }
 
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+label {
+    margin: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 1rem;
+    border: 3px solid var(--morado);
+}
+
+textarea {
+    width: 250px;
+    border-radius: 1rem;
+    border: 3px solid var(--morado);
+}
+
 .contact, a {
     text-align: center;
     color: #fff;
