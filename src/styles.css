@@ -60,9 +60,12 @@ nav h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 50px;
     position: sticky;
     top: 0px;
+}
+
+.header h2 {
+    margin: 0px 50px;
 }
 
 .header nav a {
@@ -145,6 +148,7 @@ nav h2 {
     align-items: center;
     justify-content: center;
     z-index: -1;
+    user-select: none;
 }
 
 .card_pekka {
@@ -154,9 +158,11 @@ nav h2 {
     justify-content: center;
     margin-left: 10%;
     z-index: -1;
+    user-select: none;
 }
 
 #info {
+    height: 750px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -166,7 +172,7 @@ nav h2 {
 
 .info {
     width: 800px;
-    margin: 70px 165px 50px 165px;
+    margin: 70px 165px 0px 165px;
 }
 
 .info h2 {
@@ -184,6 +190,7 @@ nav h2 {
 }
 
 .video iframe {
+    margin-left: 125px;
     width: 300px;
     height: 150px;
     margin-bottom: 40px;
@@ -199,9 +206,14 @@ nav h2 {
 }
 
 footer {
-    padding: 1rem;
+    padding: 7rem 7rem 3.5rem 7rem;
     background-color: #36223a;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .form {
@@ -210,6 +222,27 @@ footer {
     justify-content: center;
     flex-direction: column;
     font-size: 1rem;
+}
+
+.form, article {
+    width: 500px;
+
+}
+
+.visit, article {
+    width: 500px;
+}
+
+.visit iframe {
+    border-radius: 1rem;
+}
+
+.form {
+    user-select: none;
+}
+
+.visit {
+    user-select: none;
 }
 
 label {
@@ -230,6 +263,15 @@ textarea {
     border: 3px solid var(--morado);
 }
 
+.visit h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.visit iframe {
+    margin: 30px;
+}
+
 .contact, a {
     text-align: center;
     color: #fff;
@@ -237,12 +279,21 @@ textarea {
     text-decoration: none;
 }
 
+.contact {
+    font-size: 1rem;
+}
+
 footer p {
     margin: 10px;
     color: #fff;
 }
 
+.redes_sociales, a {
+    text-align: center;
+    margin: 10px 10px 0 10px;
+    user-select: none;
+}
+
 .copy {
     text-align: center;
 }
-
